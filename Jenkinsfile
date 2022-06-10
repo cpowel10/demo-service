@@ -9,7 +9,7 @@ node {
         //sh on linux
         bat "C:\\Users\\chris\\Desktop\\apache-maven-3.8.5-bin\\apache-maven-3.8.5\\bin\\mvn clean install"
         Maven.test.skip=true
-        Dsk ipTests=true
+        //Dsk ipTests=true
         //jar file will be generated
     }
     stage('Build docker image'){
